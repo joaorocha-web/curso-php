@@ -33,5 +33,7 @@ body.exercicio{
 .navegacao >a.verde {background-color: #4caf50;}
 .navegacao >a.verde:hover {background-color: #a1f9a4a5;}
 
-.navegacao>a.vermelho{background-color: #da1d43;}
+.navegacao>a.vermelho{background-color: #ca0707;}
 .navegacao>a.vermelho:hover{background-color: #f74367cd;}
+
+
