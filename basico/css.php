@@ -6,7 +6,8 @@
 </h1>
 
 <label for="icor">Escolha uma cor</label>
-<input type="text" name="cor" id="icor" placeholder="ex: #289675">
+<!-- <input type="text" name="cor" id="icor" placeholder="ex: #289675"> -->
+ <input type="color" name="cor" id="icor">
 <input type="button" value="Escolher" onclick="alterarCor()" id="botao">
 
 
