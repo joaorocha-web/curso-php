@@ -17,6 +17,7 @@
 
 <p>obs: usei JavaScript só pra brincar &#128514;</p>
 
+
 <script>
     
     let input = document.getElementById('icor')
