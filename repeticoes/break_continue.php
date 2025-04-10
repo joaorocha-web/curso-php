@@ -1,9 +1,9 @@
-<div class="titul">Break / Continue</div>
+<div class="titulo">Break / Continue</div>
 
 <?php
 $count = 10;
 for(;;){
-    echo "$cont <br>";
+    echo "$count <br>";
     $count++;
     if ($count>20){
         break;
