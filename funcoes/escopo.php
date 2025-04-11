@@ -21,4 +21,16 @@ echo "Valor antes da função: $variavel <br>";
 alterarValor();
 echo "Valor depois da função: $variavel";
 
+echo "<hr><br>";
+
+function alterarValordeVerdade($teste){
+    $variavel = 3; 
+    echo "Valor durante a função: $variavel <br>";
+    return $variavel;
+}
+
+echo "Valor antes da função: $variavel <br>";
+alterarValordeVerdade();
+echo "Valor depois da função: $variavel";
+
 ?>
