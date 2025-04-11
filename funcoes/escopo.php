@@ -23,10 +23,11 @@ echo "Valor depois da função: $variavel";
 
 echo "<hr><br>";
 
-function alterarValordeVerdade($teste){
+function alterarValordeVerdade(){
+    global $variavel;
     $variavel = 3; 
     echo "Valor durante a função: $variavel <br>";
-    return $variavel;
+   
 }
 
 echo "Valor antes da função: $variavel <br>";
