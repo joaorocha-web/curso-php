@@ -186,8 +186,15 @@
                     </li>   
                     <li>
                         <a href="exercicio.php?dir=repeticoes&file=desafio_tabela2">Desafio Tabela #2</a>
+                    </li>                      
+                </ul>
+            </div>
+            <div class="modulo vermelho-escuro">
+                <h3>7. Funções </h3>
+                <ul>
+                    <li>
+                        <a href="exercicio.php?dir=funcoes&file=escopo">Escopo</a>
                     </li>   
-                    
                 </ul>
             </div>
         </nav>
