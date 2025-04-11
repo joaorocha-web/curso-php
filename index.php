@@ -193,7 +193,7 @@
                 <h3>7. Funções </h3>
                 <ul>
                     <li>
-                        <a href="exercicio.php?dir=funcoes&file=escopo">Escopo</a>
+                        <a href="exercicio.php?dir=funcoes&file=escopo">Função & Escopo</a>
                     </li>   
                 </ul>
             </div>

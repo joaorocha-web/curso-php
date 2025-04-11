@@ -1,1 +1,6 @@
-<div class="titulo">Escopo</div>
+<div class="titulo">Função & Escopo</div>
+
+<?php
+
+
+?>
