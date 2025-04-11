@@ -24,7 +24,6 @@
 
 <table>
 <?php
-$tabela = [];
 $cor = $_POST ['cor'];
 $linha = $_POST['linha'];
 $coluna = $_POST['coluna'];
