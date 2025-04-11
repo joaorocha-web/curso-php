@@ -14,10 +14,10 @@ $variavel = 1;
 
 function alterarValor(){
     $variavel = 2;
-    echo "Valor durante a função: $variavel";
+    echo "Valor durante a função: $variavel <br>";
 }
 
-echo "Valor antes da função: $variavel";
+echo "Valor antes da função: $variavel <br>";
 alterarValor();
 echo "Valor depois da função: $variavel";
 
