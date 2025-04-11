@@ -75,7 +75,6 @@ for ($i = 0; $i < $linha; $i++){
         border-collapse: collapse;
         margin: 20px auto;
         box-shadow: 2px 3px 8px #777;
-        border-radius: 8px;
     }
 
     table tr{

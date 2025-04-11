@@ -6,4 +6,10 @@ function obterMensagem(){
 }
 
 echo obterMensagem();
+
+function obterMensagensComNome($nome){
+    return "Seja bem vindo(a) {$nome}!";
+}
+
+echo '<br>' . obterMensagensComNome('João')
 ?>
