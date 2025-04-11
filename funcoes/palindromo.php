@@ -15,6 +15,15 @@ echo palindromo('Ovo');
 echo palindromo('mel');
 echo palindromo('A base do teto desaba');
 echo palindromo('ABASEDOTETODESABA');
+echo "<br>";
 
+function palindromoSimples($palavra){
+    return strtoupper($palavra) === strtoupper(strrev($palavra)) ? "Sim" : "Não";
+}
 
+echo palindromoSimples('arara');
+echo palindromoSimples('Ovo');
+echo palindromoSimples('mel');
+echo palindromoSimples('A base do teto desaba');
+echo palindromoSimples('ABASEDOTETODESABA');
 ?>
