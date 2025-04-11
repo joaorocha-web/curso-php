@@ -2,8 +2,8 @@
 
 <?php
 function imprimirMensagens(){
-    echo "Olá";
-    echo"<br> Tudo bem? <br>";
+  
+    echo"É importante entender que quando colocamos uma variavel dentro de uma função, essa variavel não possui um escopo global, ou seja, ela não é alterada fora da função. Para que isso aconteca precisamos declarar -global e o nome da variavel. <br>";
 }
 
 imprimirMensagens();
