@@ -15,4 +15,6 @@ echo palindromo('Ovo');
 echo palindromo('mel');
 echo palindromo('A base do teto desaba');
 echo palindromo('ABASEDOTETODESABA');
+
+
 ?>
