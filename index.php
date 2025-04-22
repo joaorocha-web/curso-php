@@ -231,7 +231,7 @@
                 </ul>
             </div>
             <div class="modulo azul-escuro">
-                <h3>8. Paradigma 0.0. </h3>
+                <h3>8. Paradigma O.O. </h3>
                 <ul>
                     <li>
                         <a href="exercicio.php?dir=classes_objetos&file=classe">Primeira Classe</a>
