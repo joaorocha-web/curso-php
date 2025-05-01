@@ -29,9 +29,9 @@ if ($_POST['email']){
          if($emailValido && $senhaValida){
             $_SESSION['erros']= null;
             $_SESSION['usuario'] = $usuario['nome'];
-            setcookie('usuario', $usuario['nome'], $exp);
             $exp = time() + 60 * 60 * 24 * 30;
-            header('location: index.php');
+            setcookie('usuario', $usuario['nome'], $exp);
+            header('Location: index.php');
          }
       }
       
