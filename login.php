@@ -14,7 +14,13 @@ if ($_POST['email']){
          'nome' => 'Outro Aluno',
          'email' => 'outroaluno@email.com',
          'senha' => '654321',
+      ],
+      [
+         'nome' => 'João Victor',
+         'email' => 'jvdofogo@gmail.com',
+         'senha' => '1234jesusebom',
       ]
+
       ];
 
       foreach($usuarios as $usuario){
@@ -23,6 +29,8 @@ if ($_POST['email']){
          if($emailValido && $senhaValida){
             $_SESSION['erros']= null;
             $_SESSION['usuario'] = $usuario['nome'];
+            setcookie('usuario', $usuario['nome'], $exp);
+            $exp = time() + 60 * 60 * 24 * 30;
             header('location: index.php');
          }
       }
