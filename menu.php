@@ -376,6 +376,9 @@
                     <li>
                         <a href="exercicio.php?dir=db&file=excluir_02">Excluir Registro #2</a>
                     </li>  
+                    <li>
+                        <a href="exercicio.php?dir=db&file=inserir_02">Inserir Registros #2</a>
+                    </li>  
                   
                 </ul>
             </div>
