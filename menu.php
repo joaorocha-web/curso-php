@@ -339,8 +339,20 @@
                     <li>
                         <a href="exercicio.php?dir=api&file=datas_02">Datas #02</a>
                     </li>  
+                    <li>
+                        <a href="exercicio.php?dir=api&file=escrever_arquivo">Escrever Arquivo</a>
+                    </li>  
                     
                     
+                </ul>
+            </div>
+            <div class="modulo roxo">
+                <h3>14. Formulário </h3>
+                <ul>
+                    <li>
+                        <a href="exercicio.php?dir=formulario&file=formulario">Formulário</a>
+                    </li>  
+                  
                 </ul>
             </div>
         </nav>
