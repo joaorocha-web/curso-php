@@ -361,6 +361,12 @@
                     <li>
                         <a href="exercicio.php?dir=db&file=criar_banco">Criar Banco</a>
                     </li>  
+                    <li>
+                        <a href="exercicio.php?dir=db&file=criar_tabela">Criar Tabela</a>
+                    </li>  
+                    <li>
+                        <a href="exercicio.php?dir=db&file=inserir_01">Inserir Registro #01</a>
+                    </li>  
                   
                 </ul>
             </div>
